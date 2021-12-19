@@ -9,6 +9,7 @@ gameOver = False
 pygame.init()
 
 displaySurf = pygame.display.set_mode((300, 300))
+pygame.draw.circle(displaySurf, RED, (200,50), 30)
 
 # game loop goes here
 
