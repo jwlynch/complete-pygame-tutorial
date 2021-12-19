@@ -12,7 +12,11 @@ displaySurf = pygame.display.set_mode((300, 300))
 while not gameOver:
     # play one step of the game, and test for game over
 
-    # (for now, there is no such test, so this is an endless loop)
+    # get events
+    for event in pygame.event.get():
+        # check what kind of event we got; first check for quit
+        if event.type == QUIT:
+            gameOver = True # if user quits, game is over
 
     # at the end of each loop, update the display
     pygame.display.update()
