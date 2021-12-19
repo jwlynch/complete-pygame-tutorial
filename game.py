@@ -1,6 +1,9 @@
 import pygame
 from pygame.locals import *
 
+BLACK = pygame.color.Color(0,0,0)
+RED = pygame.color.Color(255,0,0)
+
 gameOver = False
 
 pygame.init()
