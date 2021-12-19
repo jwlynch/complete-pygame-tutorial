@@ -5,6 +5,8 @@ gameOver = False
 
 pygame.init()
 
+displaySurf = pygame.display.set_mode((300, 300))
+
 # game loop goes here
 
 while not gameOver:
