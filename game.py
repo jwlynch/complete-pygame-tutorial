@@ -3,12 +3,14 @@ from pygame.locals import *
 
 BLACK = pygame.color.Color(0,0,0)
 RED = pygame.color.Color(255,0,0)
+WHITE = pygame.color.Color(255,255,255)
 
 gameOver = False
 
 pygame.init()
 
 displaySurf = pygame.display.set_mode((300, 300))
+displaySurf.fill(WHITE)
 pygame.draw.circle(displaySurf, RED, (200,50), 30)
 
 # game loop goes here
