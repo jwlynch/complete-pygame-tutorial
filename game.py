@@ -77,6 +77,7 @@ while not gameOver:
     P1.update()
 
     DISPLAYSURF.fill(WHITE)
+    P1.draw(DISPLAYSURF)
 
     pygame.display.update()
     FramePerSec.tick(FPS)
