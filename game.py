@@ -63,6 +63,8 @@ class Player(pygame.sprite.Sprite):
     def draw(self, surface):
         surface.blit(self.image, self.rect)
 
+P1 = Player()
+
 gameOver = False
 
 while not gameOver:
