@@ -31,3 +31,4 @@ while not gameOver:
     DISPLAYSURF.fill(WHITE)
 
     pygame.display.update()
+    FramePerSec.tick(FPS)
