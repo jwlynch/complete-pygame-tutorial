@@ -74,6 +74,8 @@ while not gameOver:
         elif event.type == KEYDOWN:
             if event.key - pygame.K_q:
                 gameOver = True
+    P1.update()
+
     DISPLAYSURF.fill(WHITE)
 
     pygame.display.update()
