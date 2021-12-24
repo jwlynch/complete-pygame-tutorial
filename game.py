@@ -16,6 +16,7 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 
 DISPLAYSURF = pygame.display.set_mode((400, 600))
+DISPLAYSURF.fill(WHITE)
 
 gameOver = False
 
@@ -26,5 +27,6 @@ while not gameOver:
         elif event.type == KEYDOWN:
             if event.key - pygame.K_q:
                 gameOver = True
+    DISPLAYSURF.fill(WHITE)
 
     pygame.display.update()
