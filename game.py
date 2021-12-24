@@ -17,6 +17,7 @@ WHITE = (255, 255, 255)
 
 DISPLAYSURF = pygame.display.set_mode((400, 600))
 DISPLAYSURF.fill(WHITE)
+pygame.display.set_caption("Game")
 
 gameOver = False
 
